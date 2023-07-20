@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="buttons.css" rel="stylesheet">
+  </head>
+  <body>
+    <figure id="nespad">
+      <div class="cord"></div>
+      <form  method="post" action="add (1).php">
+      <section class="dpad-pane">
+        <div class="dpad-hole"></div>
+        <div id="dpad">
+          <canvas id="dpad-body" width="150" height="150"></canvas>
+          <button input type="submit" id="forward" class="button" name="button" value="forward"></button>
+          <button input type="submit" id="right"   class="button" name="button" value="right"></button>
+          <button input type="submit" id="backward"class="button"name="button" value="backward"></button>
+          <button input type="submit" id="left"    class="button"name="button" value="left"></button>
+        </div>
+        <div class="buttons">
+        </div>
+      </section> 
+      <section class="action-pane">
+        <div class="buttons">
+          <label class="label">
+            <span class="caption">STOP</span>
+            <button input type="submit" id="stop" class="button" name="button" value="stop"></button>
+        </div>
+      </section>
+    </form>
+    </figure>
+  </body>
+</html>
